@@ -42,50 +42,25 @@
   
   
   
-  .button2 {
-  border-radius: 4px;
-  background-color:orange;
+ .btn {
+  background-color: #f4511e;
   border: none;
-  color: #FFFFFF;
+  color: white;
+  padding: 16px 32px;
   text-align: center;
-  font-size: 28px;
-  padding: 20px;
-  width: 200px;
-  transition: all 0.5s;
-  cursor: pointer;
-  margin: 5px;
+  font-size: 16px;
+  margin: 4px 2px;
+  opacity: 0.6;
+  transition: 0.3s;
 }
 
-.button2 span {
-  cursor: pointer;
-  display: inline-block;
-  position: relative;
-  transition: 0.5s;
-}
-
-.button2 span:after {
-  content: '\00bb';
-  position: absolute;
-  opacity: 0;
-  top: 0;
-  right: -20px;
-  transition: 0.5s;
-}
-
-.button2:hover span {
-  padding-right: 25px;
-}
-
-.button2:hover span:after {
-  opacity: 1;
-  right: 0;
-}
+.btn:hover {opacity: 1}
 </style>
 <body>
 
 <h1>knoppenpagina</h1>
 
  <a href="index.html"<button class="button"><span> terug </span></button> </a>
-<a href="index.html"<button class="button"><span> fotopagina </span></button> </a>
+ <button class="btn">fotopagina</button>
 </body>
 </html> 
